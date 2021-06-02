@@ -1,4 +1,4 @@
-# Gpiszczek Mobile
+# Mobile
 
 ## How do I install these formulae?
 
