@@ -12,6 +12,7 @@ class Libimobiledevice < Formula
   depends_on "libtasn1"
   depends_on "libusbmuxd"
   depends_on "openssl@1.1"
+  depends_on "libimobiledevice-glue"
 
   def install
     system "./autogen.sh" if build.head?
