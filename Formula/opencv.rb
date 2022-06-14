@@ -12,7 +12,6 @@ class Opencv < Formula
   end
 
   bottle do
-    rebuild 1
     sha256                               arm64_big_sur: "09507319a272578c791e692cae9a6e3bade605eed2615c5c475a5780c91ad38f"
     sha256                               big_sur:       "fd07e9e14a616f2c102c4320bf5ba2506fb9252c9bcd9f3cea50e4f3f3311a3d"
     sha256                               catalina:      "9b514e40de4aa6dcea79b5d186e7a82b015ede3dbc3d286bd4068f60398c7c4a"
