@@ -2,21 +2,12 @@ class Opencv < Formula
   desc "Open source computer vision library"
   homepage "https://opencv.org/"
   url "https://github.com/opencv/opencv/archive/4.5.0.tar.gz"
-  sha256 "dde4bf8d6639a5d3fe34d5515eab4a15669ded609a1d622350c7ff20dace1907"
   license "Apache-2.0"
   revision 5
 
   livecheck do
     url :stable
     regex(/^v?(\d+(?:\.\d+)+)$/i)
-  end
-
-  bottle do
-    rebuild 1
-    sha256 "fd07e9e14a616f2c102c4320bf5ba2506fb9252c9bcd9f3cea50e4f3f3311a3d" => :big_sur
-    sha256 "09507319a272578c791e692cae9a6e3bade605eed2615c5c475a5780c91ad38f" => :arm64_big_sur
-    sha256 "9b514e40de4aa6dcea79b5d186e7a82b015ede3dbc3d286bd4068f60398c7c4a" => :catalina
-    sha256 "6780702cdf026eeda53e5a255363bf2a76e7492ed9cf5881288c4c7502e50f9b" => :mojave
   end
 
   depends_on "cmake" => :build
