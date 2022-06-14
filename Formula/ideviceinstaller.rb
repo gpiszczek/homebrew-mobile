@@ -6,8 +6,8 @@ class Ideviceinstaller < Formula
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
-  depends_on "libtool" => :build
   depends_on "libimobiledevice" => :build
+  depends_on "libtool" => :build
   depends_on "pkg-config" => :build
   depends_on "libplist"
   depends_on "libzip"
