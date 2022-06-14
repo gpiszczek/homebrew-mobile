@@ -1,5 +1,5 @@
 class LibimobiledeviceGlue < Formula
-  desc "Library with common code used by the libraries and tools around the libimobiledevice project"
+  desc "Library with common code used by the libimobiledevice project"
   homepage "https://www.libimobiledevice.org/"
   license "LGPL-2.1"
   head "https://github.com/libimobiledevice/libimobiledevice-glue.git"
@@ -14,5 +14,4 @@ class LibimobiledeviceGlue < Formula
     system "./autogen.sh", "--prefix=#{prefix}"
     system "make", "install"
   end
-
 end
